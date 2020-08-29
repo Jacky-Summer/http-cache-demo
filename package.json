@@ -1,0 +1,28 @@
+{
+  "name": "http-cache-demo",
+  "version": "1.0.0",
+  "description": "HTTP缓存机制代码演示",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/5-etag.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacky-Summer/http-cache-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacky-Summer/http-cache-demo/issues"
+  },
+  "homepage": "https://github.com/Jacky-Summer/http-cache-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "md5": "^2.3.0"
+  }
+}
